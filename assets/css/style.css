@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 
+font-family: 'Work Sans', sans-serif; 
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2e2e2e;
+}
+
+#sticky1{
+    position: fixed;
+    
+}
+
+.listAbove{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 3%;
+    margin-right: 10%; */
+    list-style: none;
+}
+
+.listAbove a{
+    text-decoration: none;
+    color:  #867772 ;
+    transition: 0.5s;
+}
+
+.space1{
+padding-right: 50px;
+}
+
+.space2{
+    padding-left: 50px;
+}
+
+.listAbove a:hover {
+    border-bottom: 1px solid;
+    color: rgb(234, 204, 194);
+    transition: 0.5s;
+}
+
+/* .logo{
+    padding-right: 55%;
+} */
+
+header h2{
+    color:rgb(234, 204, 194);
+    font-size: 2em;
+    margin: 9% 25% 3% 25%;
+    font-weight: normal;
+}
+
+.img1{
+    width: 90%;
+    margin: 5%;
+}
+
+article{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-bottom: 20%;
+}
+
+.img2{
+    width: 40%;
+    height:40%
+}
+article h3{
+    font-weight: normal;
+    font-size: 2em;
+    color: #ebccc2 ;
+    padding-bottom: 15px;
+}
+
+article p{
+    color: #867772;
+    width: 85%;
+    line-height: 2em;
+}
+
+.designAlchemy{
+    padding: 80px;
+}
+
+
