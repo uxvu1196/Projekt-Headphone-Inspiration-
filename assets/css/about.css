@@ -1,0 +1,41 @@
+/* --------------- MIDLLE HEADLINE AND PICS  -------------------------- */
+header h2{
+    color:rgb(234, 204, 194);
+    font-size: 2.2em;
+    margin: 12% 25% 3% 25%;
+    font-weight: 350;
+    line-height: 1.2em;
+}
+
+.img1{
+    width: 90%;
+    margin: 5%;
+}
+/* --------------------- ARTICLE UNTEN -------------------- */
+.img2{
+    width: 40%;
+    height:40%
+}
+
+article{
+    display: flex;
+    margin: 5% 0 20% 17%;
+    align-items: center;
+}
+
+article h3{
+    font-weight: 400;
+    font-size: 2em;
+    color: #ebccc2 ;
+    padding-bottom: 15px;
+}
+
+article p{
+    color:rgb(115, 115, 115);
+    width: 85%;
+    line-height: 2em;
+}
+
+.designAlchemy{
+    padding-left: 80px;
+}

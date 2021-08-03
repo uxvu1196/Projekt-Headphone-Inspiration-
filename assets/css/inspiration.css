@@ -1,0 +1,35 @@
+video{
+    margin: 15% 20% 0;
+    width: 60%;
+}
+
+.textButton{
+    margin: 10% 0 10% 20%;
+}
+
+.textButton h3{
+    color: #ebccc2;
+    font-size: 1.2em ;
+    font-weight: normal;
+}
+
+.textButton h2{
+    color:  rgb(234, 204, 194) ;
+    font-size: ;
+    font-weight: normal;
+}
+
+.textButton ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.textButton a{
+    text-decoration: none;
+    border: 1px solid rgb(234, 204, 194)  ;
+}
+
+.textButton p{
+    color: #867772;
+}
