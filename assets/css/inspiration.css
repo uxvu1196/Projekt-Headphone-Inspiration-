@@ -7,15 +7,15 @@ video{
     margin: 10% 0 10% 20%;
 }
 
-.textButton h3{
+.textButton .hl3{
     color: #ebccc2;
     font-size: 1.2em ;
     font-weight: normal;
 }
 
-.textButton h2{
+.textButton .hl2{
     color:  rgb(234, 204, 194) ;
-    font-size: ;
+    font-size: 2em;
     font-weight: normal;
 }
 
@@ -25,11 +25,87 @@ video{
     
 }
 
+.textButton li{
+    margin-right: 0.7%;
+}
 .textButton a{
     text-decoration: none;
-    border: 1px solid rgb(234, 204, 194)  ;
+    border: 1.5px solid rgb(234, 204, 194)  ;
+    color:#867772 ;
+    font-size: 0.8em;
+    padding: 5px 15px;
 }
 
-.textButton p{
+.pText{
     color: #867772;
+}
+ /* --------------------------------- */
+
+
+.textImg-1{
+    display: flex;
+    margin-left: 15%;
+}
+
+.textImg-right{
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+.textImg-1 img{
+    width: 40%;
+}
+
+.textImg-1 .hl3{
+color: #ebccc2;
+font-size: 1.2em ;
+font-weight: normal;
+}
+
+.textImg-1 .hl2{
+    color:  rgb(234, 204, 194) ;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.textImg-1 .pText{
+    color: #867772;
+    width: 50%;
+    line-height: 1.5em;
+}
+
+/* 
+---------------------------------------- */
+
+.textImg-2{
+    display: flex;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.textImg-2 img{
+    width: 42%;
+}
+
+.textImg-2 .textImg-left{
+    padding-top: 10%;
+    padding-left: 30%;
+}
+
+.textImg-2 .hl3{
+color: #ebccc2;
+font-size: 1.2em ;
+font-weight: normal;
+}
+
+.textImg-2 .hl2{
+    color:  rgb(234, 204, 194) ;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.textImg-2 .pText{
+    color: #867772;
+    width: 95%;
+    line-height: 1.5em;
 }
