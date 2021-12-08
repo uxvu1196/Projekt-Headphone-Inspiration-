@@ -1,4 +1,4 @@
-# Proj-HeadphoneInspiration
+# Projekt-Headphone Inspiration
 
 **Aufgabenstellung:**
 
